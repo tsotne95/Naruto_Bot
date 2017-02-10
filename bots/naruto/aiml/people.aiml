@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+	<category>
+		<pattern>IRUKA</pattern>
+		<template>Iruka Umino est un chûnin du village caché de Konoha et il est principalement instructeur à l'Académie. </template>
+	</category>
+	<category>
+		<pattern>* IRUKA</pattern>
+		<template><srai>IRUKA</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST IRUKA</pattern>
+		<template><srai>IRUKA</srai></template>
+	</category>
+	<category>
+		<pattern>IRUKA *</pattern>
+		<template><srai>IRUKA</srai></template>
+	</category>
+	<category>
+		<pattern>* IRUKA *</pattern>
+		<template><srai>IRUKA</srai></template>
+	</category>
+
+	<category>
+		<pattern>ACADÉMIE</pattern>
+		<template>L'Académie est le centre de formation de Konoha pour les futurs ninjas</template>
+	</category>
+	<category>
+		<pattern>* ACADÉMIE</pattern>
+		<template><srai>ACADÉMIE</srai></template>
+	</category>
+	<category>
+		<pattern>QU'EST-CE QUE C'EST ACADÉMIE</pattern>
+		<template><srai>ACADÉMIE</srai></template>
+	</category>
+	<category>
+		<pattern>ACADÉMIE *</pattern>
+		<template><srai>ACADÉMIE</srai></template>
+	</category>
+	<category>
+		<pattern>* ACADÉMIE *</pattern>
+		<template><srai>ACADÉMIE</srai></template>
+	</category>
+
+	<category>
+		<pattern>SHINOBI</pattern>
+		<template>Le terme shinobi désigne les combattants de l'univers de Naruto. Les femmes ninjas sont appelées kunoichi. Les shinobi sont pour la plupart organisés en clans, eux-mêmes regroupés au sein d'une base militaire : le village caché. Ils remplissent toutes sortes de missions rémunérées : travaux civils, escortes, espionnage, recherche d'individus, assassinats, etc. En période de guerre, les shinobi se rassemblent en armée afin de protéger leur village et leur pays. Les shinobi tirent leur pouvoir de leur maîtrise du chakra qui leur permet d'exécuter des jutsu. </template>
+	</category>
+	<category>
+		<pattern>* SHINOBI</pattern>
+		<template><srai>SHINOBI</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST SHINOBI</pattern>
+		<template><srai>SHINOBI</srai></template>
+	</category>
+	<category>
+		<pattern>SHINOBI *</pattern>
+		<template><srai>SHINOBI</srai></template>
+	</category>
+	<category>
+		<pattern>* SHINOBI *</pattern>
+		<template><srai>SHINOBI</srai></template>
+	</category>
+
+	<category>
+		<pattern>JUTSU</pattern>
+		<template>Jutsu sont les arts mystiques qu'un ninja va utiliser dans la bataille. Pour utiliser une technique, le ninja devra utiliser leur chakra. Pour effectuer une technique, le ninja fera ressortir et de libérer les deux énergies de chakra.</template>
+	</category>
+	<category>
+		<pattern>* JUTSU</pattern>
+		<template><srai>JUTSU</srai></template>
+	</category>
+	<category>
+		<pattern>QU'EST-CE QUE C'EST JUTSU</pattern>
+		<template><srai>JUTSU</srai></template>
+	</category>
+	<category>
+		<pattern>JUTSU *</pattern>
+		<template><srai>JUTSU</srai></template>
+	</category>
+	<category>
+		<pattern>* JUTSU *</pattern>
+		<template><srai>JUTSU</srai></template>
+	</category>
+
+	<category>
+		<pattern>CHAKRA</pattern>
+		<template>Le chakra est l'essence indispensable à la réalisation de toute technique ninja. Il est obtenu par le mélange de deux énergies opposées, produites respectivement par le corps et l'esprit.</template>
+	</category>
+	<category>
+		<pattern>QU'EST-CE QUE C'EST CHAKRA</pattern>
+		<template><srai>CHAKRA</srai></template>
+	</category>
+	<category>
+		<pattern>* CHAKRA</pattern>
+		<template><srai>CHAKRA</srai></template>
+	</category>
+	<category>
+		<pattern>CHAKRA *</pattern>
+		<template><srai>CHAKRA</srai></template>
+	</category>
+	<category>
+		<pattern>* CHAKRA *</pattern>
+		<template><srai>CHAKRA</srai></template>
+	</category>
+
+	<category>
+		<pattern>NINJA</pattern>
+		<template><srai>SHINOBI</srai></template>
+	</category>
+	<category>
+		<pattern>* NINJA</pattern>
+		<template><srai>NINJA</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST NINJA</pattern>
+		<template><srai>NINJA</srai></template>
+	</category>
+	<category>
+		<pattern>NINJA *</pattern>
+		<template><srai>NINJA</srai></template>
+	</category>
+	<category>
+		<pattern>* NINJA *</pattern>
+		<template><srai>NINJA</srai></template>
+	</category>
+
+	<category>
+		<pattern>KONOHA</pattern>
+		<template>Konoha est l'un des cinq grands villages ninjas et il est l'un des plus puissants. En tant que tel, il est l'un des cinq villages à avoir un Kage comme chef du village, connu sous le nom de Hokage.</template>
+	</category>
+	<category>
+		<pattern>* KONOHA</pattern>
+		<template><srai>KONOHA</srai></template>
+	</category>
+	<category>
+		<pattern>QU'EST-CE QUE C'EST KONOHA</pattern>
+		<template><srai>KONOHA</srai></template>
+	</category>
+	<category>
+		<pattern>KONOHA *</pattern>
+		<template><srai>KONOHA</srai></template>
+	</category>
+	<category>
+		<pattern>* KONOHA *</pattern>
+		<template><srai>KONOHA</srai></template>
+	</category>
+
+	<category>
+		<pattern>KAGE</pattern>
+		<template>Un Kage est le dirigeant de l'un des cinq grands villages cachés et sont généralement des shinobis extrêmement puissants. Ils dirigent de fait le Monde Shinobi ainsi que l'ensemble des confréries des Cinq grands pays ninjas. </template>
+	</category>
+	<category>
+		<pattern>* KAGE</pattern>
+		<template><srai>KAGE</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST KAGE</pattern>
+		<template><srai>KAGE</srai></template>
+	</category>
+	<category>
+		<pattern>KAGE *</pattern>
+		<template><srai>KAGE</srai></template>
+	</category>
+	<category>
+		<pattern>* KAGE *</pattern>
+		<template><srai>KAGE</srai></template>
+	</category>
+
+	<category>
+		<pattern>PAYS NINJAS</pattern>
+		<template>Les Cinq grands pays sont les cinq plus grands pays du continent où se trouve Konoha. Le Pays de la Terre se situe au Nord-Ouest, le Pays de la Foudre au Nord-Est, le Pays de l'Eau à l'Est, le Pays du Vent au Sud-Ouest et le Pays du Feu au centre. Le nom des cinq pays vient de la nature élémentaire du chakra privilégiée par les ninjas de chaque pays.</template>
+	</category>
+	<category>
+		<pattern>* PAYS NINJAS</pattern>
+		<template><srai>PAYS NINJAS</srai></template>
+	</category>
+	<category>
+		<pattern>QU'EST-CE QUE C'EST PAYS NINJAS</pattern>
+		<template><srai>PAYS NINJAS</srai></template>
+	</category>
+	<category>
+		<pattern>PAYS NINJAS *</pattern>
+		<template><srai>PAYS NINJAS</srai></template>
+	</category>
+	<category>
+		<pattern>* PAYS NINJAS *</pattern>
+		<template><srai>PAYS NINJAS</srai></template>
+	</category>
+
+	<category>
+		<pattern>PAYS NINJAS</pattern>
+		<template>Les Cinq grands pays sont les cinq plus grands pays du continent où se trouve Konoha. Le Pays de la Terre se situe au Nord-Ouest, le Pays de la Foudre au Nord-Est, le Pays de l'Eau à l'Est, le Pays du Vent au Sud-Ouest et le Pays du Feu au centre. Le nom des cinq pays vient de la nature élémentaire du chakra privilégiée par les ninjas de chaque pays.</template>
+	</category>
+	<category>
+		<pattern>* PAYS NINJAS</pattern>
+		<template><srai>PAYS NINJAS</srai></template>
+	</category>
+	<category>
+		<pattern>PAYS NINJAS *</pattern>
+		<template><srai>PAYS NINJAS</srai></template>
+	</category>
+	<category>
+		<pattern>* PAYS NINJAS *</pattern>
+		<template><srai>PAYS NINJAS</srai></template>
+	</category>
+
+	<category>
+		<pattern>KAZEKAGE</pattern>
+		<template>Le Kazekage est le dirigeant du village caché de Suna. Craint et respecté par-delà les frontières, il est le responsable du grand et puissant village caché de Suna. Cependant, avoir un tel pouvoir semble dangereux, étant donné que tous les Kazekage, y compris l'actuel, ont été tués par des assassins ou des terroristes.</template>
+	</category>
+	<category>
+		<pattern>* KAZEKAGE</pattern>
+		<template><srai>KAZEKAGE</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST KAZEKAGE</pattern>
+		<template><srai>KAZEKAGE</srai></template>
+	</category>
+	<category>
+		<pattern>KAZEKAGE *</pattern>
+		<template><srai>KAZEKAGE</srai></template>
+	</category>
+	<category>
+		<pattern>* KAZEKAGE *</pattern>
+		<template><srai>KAZEKAGE</srai></template>
+	</category>
+
+	<category>
+		<pattern>MIZUKAGE</pattern>
+		<template>Le Mizukage est le dirigeant du village caché de Kiri au Pays de l'Eau. Cette position donne un grand pouvoir de décision politique et militaire concernant Kiri et ses habitants. Il y a eu Cinq Mizukage. Le palais du Mizukage, qui est le plus grand du village, est facilement reconnaissable car il arbore le kanji Mizu</template>
+	</category>
+	<category>
+		<pattern>* MIZUKAGE</pattern>
+		<template><srai>MIZUKAGE</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST MIZUKAGE</pattern>
+		<template><srai>MIZUKAGE</srai></template>
+	</category>
+	<category>
+		<pattern>MIZUKAGE *</pattern>
+		<template><srai>MIZUKAGE</srai></template>
+	</category>
+	<category>
+		<pattern>* MIZUKAGE *</pattern>
+		<template><srai>MIZUKAGE</srai></template>
+	</category>
+
+	<category>
+		<pattern>RAIKAGE</pattern>
+		<template>Le Raikage est l'un des cinq titres de Kage existant, il est donné au dirigeant de Kumo. Il y a eu cinq Raikage. Ils sont généralement les ninjas les plus puissants du village. Le Raikage réside dans une bâtisse centrale, bleue, dans les abondants nuages de Kumo, on appelle cette bâtisse la résidence du Raikage. </template>
+	</category>
+	<category>
+		<pattern>* RAIKAGE</pattern>
+		<template><srai>RAIKAGE</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST RAIKAGE</pattern>
+		<template><srai>RAIKAGE</srai></template>
+	</category>
+	<category>
+		<pattern>RAIKAGE *</pattern>
+		<template><srai>RAIKAGE</srai></template>
+	</category>
+	<category>
+		<pattern>* RAIKAGE *</pattern>
+		<template><srai>RAIKAGE</srai></template>
+	</category>
+
+	<category>
+		<pattern>TSUCHIKAGE</pattern>
+		<template>Le Tsuchikage est le dirigeant d'Iwa ainsi que le ninja le plus puissant du village. On ne connaît que le Sandaime Tsuchikage, Ônoki, et Mû, qui était le Nidaime Tsuchikage et le professeur d'Ônoki. </template>
+	</category>
+	<category>
+		<pattern>* TSUCHIKAGE</pattern>
+		<template><srai>TSUCHIKAGE</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST TSUCHIKAGE</pattern>
+		<template><srai>TSUCHIKAGE</srai></template>
+	</category>
+	<category>
+		<pattern>TSUCHIKAGE *</pattern>
+		<template><srai>TSUCHIKAGE</srai></template>
+	</category>
+	<category>
+		<pattern>* TSUCHIKAGE *</pattern>
+		<template><srai>TSUCHIKAGE</srai></template>
+	</category>
+
+	<category>
+		<pattern>HOKAGE</pattern>
+		<template>Le Hokage est le dirigeant de Konoha ayant une fonction similaire à celle d'un maire dans notre monde. Il est généralement le ninja le plus fort du village, bien que l'idéologie et la renommée soient des critères importants pour le choix de l'élu. </template>
+	</category>
+	<category>
+		<pattern>* HOKAGE</pattern>
+		<template><srai>HOKAGE</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST HOKAGE</pattern>
+		<template><srai>HOKAGE</srai></template>
+	</category>
+	<category>
+		<pattern>HOKAGE *</pattern>
+		<template><srai>HOKAGE</srai></template>
+	</category>
+	<category>
+		<pattern>* HOKAGE *</pattern>
+		<template><srai>HOKAGE</srai></template>
+	</category>
+
+	<category>
+		<pattern>JINCHÛRIKI</pattern>
+		<template>Un Jinchûriki est un humain vivant avec un bijû scellé en lui. Cette symbiose lui confère d'extraordinaires pouvoirs et une quantité colossale de chakra. </template>
+	</category>
+	<category>
+		<pattern>* JINCHÛRIKI</pattern>
+		<template><srai>JINCHÛRIKI</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST JINCHÛRIKI</pattern>
+		<template><srai>JINCHÛRIKI</srai></template>
+	</category>
+	<category>
+		<pattern>JINCHÛRIKI *</pattern>
+		<template><srai>JINCHÛRIKI</srai></template>
+	</category>
+	<category>
+		<pattern>* JINCHÛRIKI *</pattern>
+		<template><srai>JINCHÛRIKI</srai></template>
+	</category>
+
+	<category>
+		<pattern>AKATSUKI</pattern>
+		<template>L'Akatsuki est l'organisation criminelle la plus activement recherchée dans le monde ninja. Exceptés Konan et Nagato, ses membres sont tous des ninjas répertoriés au Bingo Book. Son objectif affiché est la domination du monde et pour ce faire, leurs membres jouent les mercenaires auprès des différents pays et tentent de capturer tous les bijû afin de ramener Jûbi à la vie et d'instaurer une « paix » durable. </template>
+	</category>
+	<category>
+		<pattern>* AKATSUKI</pattern>
+		<template><srai>AKATSUKI</srai></template>
+	</category>
+	<category>
+		<pattern>QU'EST-CE QUE C'EST AKATSUKI</pattern>
+		<template><srai>AKATSUKI</srai></template>
+	</category>
+	<category>
+		<pattern>AKATSUKI *</pattern>
+		<template><srai>AKATSUKI</srai></template>
+	</category>
+	<category>
+		<pattern>* AKATSUKI *</pattern>
+		<template><srai>AKATSUKI</srai></template>
+	</category>
+
+	<category>
+		<pattern>NAGATO</pattern>
+		<template>Nagato, aussi connu comme Pain, était l'ancien chef officiel de l'Akatsuki et du village d'Ame et un des principaux antagonistes de la série. Les membres de l'Akatsuki l'appelant « Chef » (à l'exception de Konan), il dirigeait les actions des autres membres et faisait autorité. Il est révélé plus tard qu'il avait discrètement collaboré avec Tobi, qui était le vrai chef de l'Akatsuki.  Nagato est également un descendant du clan Uzumaki, qui est lointainement lié au clan Senju.</template>
+	</category>
+	<category>
+		<pattern>* NAGATO</pattern>
+		<template><srai>NAGATO</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST NAGATO</pattern>
+		<template><srai>NAGATO</srai></template>
+	</category>
+	<category>
+		<pattern>NAGATO *</pattern>
+		<template><srai>NAGATO</srai></template>
+	</category>
+	<category>
+		<pattern>* NAGATO *</pattern>
+		<template><srai>NAGATO</srai></template>
+	</category>
+
+	<category>
+		<pattern>PAIN</pattern>
+		<template><srai>NAGATO</srai></template>
+	</category>
+	<category>
+		<pattern>* PAIN</pattern>
+		<template><srai>PAIN</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST PAIN</pattern>
+		<template><srai>PAIN</srai></template>
+	</category>
+	<category>
+		<pattern>PAIN *</pattern>
+		<template><srai>PAIN</srai></template>
+	</category>
+	<category>
+		<pattern>* PAIN *</pattern>
+		<template><srai>PAIN</srai></template>
+	</category>
+
+	<category>
+		<pattern>OROCHIMARU</pattern>
+		<template>Orochimaru fut le principal antagoniste de la première partie de Naruto et un antagoniste secondaire durant la seconde partie. Il est respecté et surtout très craint par beaucoup de personne de part sa puissance légendaire, mais également à cause de son apparence de "serpent", faisant trembler même les plus courageux. En effet, Orochimaru est l'un des trois Sannin légendaires de Konoha avec Jiraya et Tsunade. Il eût pour maître le Troisième Hokage, Hiruzen Sarutobi. Selon ce dernier, il était le genre de prodige n'apparaissant qu'une fois par siècle. Ses uniques buts sont de devenir immortel et s'approprier toutes les techniques du monde Ninja. </template>
+	</category>
+	<category>
+		<pattern>* OROCHIMARU</pattern>
+		<template><srai>OROCHIMARU</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST OROCHIMARU</pattern>
+		<template><srai>OROCHIMARU</srai></template>
+	</category>
+	<category>
+		<pattern>OROCHIMARU *</pattern>
+		<template><srai>OROCHIMARU</srai></template>
+	</category>
+	<category>
+		<pattern>* OROCHIMARU *</pattern>
+		<template><srai>OROCHIMARU</srai></template>
+	</category>
+
+	<category>
+		<pattern>SANNIN</pattern>
+		<template>Les Sannin sont des ninjas de renom de Konoha, considéré comme trois des plus grands shinobi de leur temps. </template>
+	</category>
+	<category>
+		<pattern>* SANNIN</pattern>
+		<template><srai>SANNIN</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST SANNIN</pattern>
+		<template><srai>SANNIN</srai></template>
+	</category>
+	<category>
+		<pattern>SANNIN *</pattern>
+		<template><srai>SANNIN</srai></template>
+	</category>
+	<category>
+		<pattern>* SANNIN *</pattern>
+		<template><srai>SANNIN</srai></template>
+	</category>
+
+	<category>
+		<pattern>TSUNADE</pattern>
+		<template>Grand-mere :3 Tsunade est l'une des légendaires Sannin de Konoha. Considérée dans le monde comme la plus forte des kunoichi et la plus grande ninja médecin,[6] la mort répétée des êtres lui étant les plus chers firent que Tsunade abandonna la vie de shinobi pendant plusieurs années. Elle fut finalement persuadée de retourner à Konoha et devint le Cinquième Hokage, où ses compétences s'avérèrent précieuses pour le village. </template>
+	</category>
+	<category>
+		<pattern>* TSUNADE</pattern>
+		<template><srai>TSUNADE</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST TSUNADE</pattern>
+		<template><srai>TSUNADE</srai></template>
+	</category>
+	<category>
+		<pattern>TSUNADE *</pattern>
+		<template><srai>TSUNADE</srai></template>
+	</category>
+	<category>
+		<pattern>* TSUNADE *</pattern>
+		<template><srai>TSUNADE</srai></template>
+	</category>
+
+	<category>
+		<pattern>JIRAYA</pattern>
+		<template>Jiraya était l'un Sannin du village caché de Konoha. Connu en tant qu'ermite et pervers aux prodigieuses techniques, Jiraya parcourut le monde en quête d'un savoir qui pourrait aider ses amis, les différents romans qu'il écrivit et, à titre posthume, le monde dans son ensemble - connaissance qui fut transmise à son filleul et dernier élève, Naruto Uzumaki. </template>
+	</category>
+	<category>
+		<pattern>* JIRAYA</pattern>
+		<template><srai>JIRAYA</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST JIRAYA</pattern>
+		<template><srai>JIRAYA</srai></template>
+	</category>
+	<category>
+		<pattern>JIRAYA *</pattern>
+		<template><srai>JIRAYA</srai></template>
+	</category>
+	<category>
+		<pattern>* JIRAYA *</pattern>
+		<template><srai>JIRAYA</srai></template>
+	</category>
+
+	<category>
+		<pattern>ITACHI</pattern>
+		<template>Itachi Uchiwa était un membre de l'Anbu issu du célèbre clan Uchiwa du village de Konoha. Il tua les membres de son clan dans ce qui sera plus tard connu comme le massacre du clan Uchiwa et déserta son village, devenant un ninja déserteur (Nukenin) de Rang S et un membre de l'Akatsuki qui devint partenaire avec Kisame Hoshigaki. </template>
+	</category>
+	<category>
+		<pattern>* ITACHI</pattern>
+		<template><srai>ITACHI</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST ITACHI</pattern>
+		<template><srai>ITACHI</srai></template>
+	</category>
+	<category>
+		<pattern>ITACHI *</pattern>
+		<template><srai>ITACHI</srai></template>
+	</category>
+	<category>
+		<pattern>* ITACHI *</pattern>
+		<template><srai>ITACHI</srai></template>
+	</category>
+
+	<category>
+		<pattern>SASUKE</pattern>
+		<template>Il est mon ami. Comme, mon botmaster me dit, Sasuke Uchiwa est un personnage principal dans la série. Il a été initialement présenté comme un protagoniste, un membre de Konoha appartenant à l'Équipe Kakashi. Au cours de la série, il devint de plus en plus sombre, aboutissant à une alliance avec l'Akatsuki, devenant l’un des personnages les plus dynamiques de la série.  </template>
+	</category>
+	<category>
+		<pattern>* SASUKE</pattern>
+		<template><srai>SASUKE</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST SASUKE</pattern>
+		<template><srai>SASUKE</srai></template>
+	</category>
+	<category>
+		<pattern>SASUKE *</pattern>
+		<template><srai>SASUKE</srai></template>
+	</category>
+	<category>
+		<pattern>* SASUKE *</pattern>
+		<template><srai>SASUKE</srai></template>
+	</category>
+
+	<category>
+		<pattern>SAKURA</pattern>
+		<template>Elle est mon ami. Comme, mon botmaster me dit, Sakura Haruno est l'un des personnages principaux de la série. Elle est une ninja médecin de niveau chûnin du village caché de Konoha et membre de l'Équipe Kakashi.</template>
+	</category>
+	<category>
+		<pattern>* SAKURA</pattern>
+		<template><srai>SAKURA</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST SAKURA</pattern>
+		<template><srai>SAKURA</srai></template>
+	</category>
+	<category>
+		<pattern>SAKURA *</pattern>
+		<template><srai>SAKURA</srai></template>
+	</category>
+	<category>
+		<pattern>* SAKURA *</pattern>
+		<template><srai>SAKURA</srai></template>
+	</category>
+
+	<category>
+		<pattern>KAKASHI</pattern>
+		<template>Kakashi Hatake est un jônin du village caché de Konoha. En tant que chef de l’Équipe 7, il est le premier mentor des principaux protagonistes de l’histoire. Il est mondialement connu pour son utilisation du Sharingan, sous le surnom du « Ninja Copieur ».</template>
+	</category>
+	<category>
+		<pattern>* KAKASHI</pattern>
+		<template><srai>KAKASHI</srai></template>
+	</category>
+		<category>
+		<pattern>QUI EST KAKASHI</pattern>
+		<template><srai>KAKASHI</srai></template>
+	</category>
+	<category>
+		<pattern>KAKASHI *</pattern>
+		<template><srai>KAKASHI</srai></template>
+	</category>
+	<category>
+		<pattern>* KAKASHI *</pattern>
+		<template><srai>KAKASHI</srai></template>
+	</category>
+
+	<category>
+		<pattern>GAARA</pattern>
+		<template>Gaara est un ninja du village caché du Sable (Suna). Il est également le benjamin des enfants du Quatrième Kazekage, le petit frère de Kankurô et Temari. Il était le troisième jinchûriki de Shukaku, étant ainsi devenu une arme pour Suna, il acquit le surnom de « Gaara du Désert ». Bien que Gaara ait été un antagoniste majeur du manga Naruto, au fur et à mesure de la progression de l'histoire, il devint l'un des protagonistes principaux. Dans la partie II, il devint le Cinquième Kazekage, ainsi que Commandant Général et général de la quatrième division de l'Alliance Shinobi pendant la Quatrième Grande Guerre Shinobi.</template>
+	</category>
+	<category>
+		<pattern>* GAARA</pattern>
+		<template><srai>GAARA</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST GAARA</pattern>
+		<template><srai>GAARA</srai></template>
+	</category>
+	<category>
+		<pattern>GAARA *</pattern>
+		<template><srai>GAARA</srai></template>
+	</category>
+	<category>
+		<pattern>* GAARA *</pattern>
+		<template><srai>GAARA</srai></template>
+	</category>
+
+	<category>
+		<pattern>INO</pattern>
+		<template>Ino Yamanaka est une kunoichi de Konoha appartenant au clan Yamanaka. Elle et ses deux coéquipiers forment la nouvelle génération du trio Ino-Shika-Chô. </template>
+	</category>
+	<category>
+		<pattern>* INO</pattern>
+		<template><srai>INO</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST INO</pattern>
+		<template><srai>INO</srai></template>
+	</category>
+	<category>
+		<pattern>INO *</pattern>
+		<template><srai>INO</srai></template>
+	</category>
+	<category>
+		<pattern>* INO *</pattern>
+		<template><srai>INO</srai></template>
+	</category>
+
+	<category>
+		<pattern>SHIKAMARU</pattern>
+		<template>Shikamaru Nara est un membre du clan Nara de Konoha. Bien que paresseux par nature, Shikamaru possède une intelligence telle qu'elle lui permet de toujours prendre l'avantage en combat. Les responsabilités qui lui incombent du fait de ses succès lui provoquent fréquemment de l'ennui, mais il les accepte volontiers pour ainsi être au service de ses coéquipiers de l'Équipe Asuma et pour prouver sa valeur aux générations passés et futures. </template>
+	</category>
+	<category>
+		<pattern>* SHIKAMARU</pattern>
+		<template><srai>SHIKAMARU</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST SHIKAMARU</pattern>
+		<template><srai>SHIKAMARU</srai></template>
+	</category>
+	<category>
+		<pattern>SHIKAMARU *</pattern>
+		<template><srai>SHIKAMARU</srai></template>
+	</category>
+	<category>
+		<pattern>* SHIKAMARU *</pattern>
+		<template><srai>SHIKAMARU</srai></template>
+	</category>
+
+	<category>
+		<pattern>OBITO</pattern>
+		<template>Obito Uchiwa était un membre du clan Uchiwa du village caché de Konoha et un membre de l'équipe Minato aux côtés de Kakashi Hatake et de Rin Nohara.  </template>
+	</category>
+	<category>
+		<pattern>* OBITO</pattern>
+		<template><srai>OBITO</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST OBITO</pattern>
+		<template><srai>OBITO</srai></template>
+	</category>
+	<category>
+		<pattern>OBITO *</pattern>
+		<template><srai>OBITO</srai></template>
+	</category>
+	<category>
+		<pattern>* OBITO *</pattern>
+		<template><srai>OBITO</srai></template>
+	</category>
+
+	<category>
+		<pattern>MADARA</pattern>
+		<template>Madara Uchiwa était un chef légendaire du clan Uchiwa. Il fonda le village caché de Konoha avec son rival, Hashirama Senju, avec pour intention de commencer une nouvelle ère de paix. Lorsque ces derniers ne purent s'entendre sur la manière de parvenir à cette paix, ils se battirent pour le contrôle du village, un conflit qui se termina par la mort de Madara. </template>
+	</category>
+	<category>
+		<pattern>* MADARA</pattern>
+		<template><srai>MADARA</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST MADARA</pattern>
+		<template><srai>MADARA</srai></template>
+	</category>
+	<category>
+		<pattern>MADARA *</pattern>
+		<template><srai>MADARA</srai></template>
+	</category>
+	<category>
+		<pattern>* MADARA *</pattern>
+		<template><srai>MADARA</srai></template>
+	</category>
+
+	<category>
+		<pattern>MINATO</pattern>
+		<template>Mon pere. Minato Namikaze surnommé l’« Éclair Jaune de Konoha » était un ninja légendaire qui devint le Quatrième Hokage du village de Konoha. Les ninjas des villages ennemis avaient ordre de s'enfuir s'ils le croisaient. Il était le mari de Kushina Uzumaki et le père de Naruto Uzumaki. Aujourd'hui, il est considéré comme une légende. </template>
+	</category>
+	<category>
+		<pattern>* MINATO</pattern>
+		<template><srai>MINATO</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST MINATO</pattern>
+		<template><srai>MINATO</srai></template>
+	</category>
+	<category>
+		<pattern>MINATO *</pattern>
+		<template><srai>MINATO</srai></template>
+	</category>
+	<category>
+		<pattern>* MINATO *</pattern>
+		<template><srai>MINATO</srai></template>
+	</category>
+
+	<category>
+		<pattern>PÈRE</pattern>
+		<template><srai>MINATO</srai></template>
+	</category>
+	<category>
+		<pattern>* PÈRE</pattern>
+		<template><srai>PÈRE</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST TON PÈRE</pattern>
+		<template><srai>PÈRE</srai></template>
+	</category>
+	<category>
+		<pattern>PÈRE *</pattern>
+		<template><srai>PÈRE</srai></template>
+	</category>
+	<category>
+		<pattern>* PÈRE *</pattern>
+		<template><srai>PÈRE</srai></template>
+	</category>
+
+	<category>
+		<pattern>KUSHINA</pattern>
+		<template>Ma mere, Kushina Uzumaki était la femme de Minato Namikaze (le Quatrième Hokage) et la mère de Naruto Uzumaki. C'était une kunoichi de Konoha originaire d'Uzushio de l'ancien Pays des Tourbillons, ainsi que la deuxième jinchûriki de Kyûbi. </template>
+	</category>
+	<category>
+		<pattern>* KUSHINA</pattern>
+		<template><srai>KUSHINA</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST KUSHINA</pattern>
+		<template><srai>KUSHINA</srai></template>
+	</category>
+	<category>
+		<pattern>KUSHINA *</pattern>
+		<template><srai>KUSHINA</srai></template>
+	</category>
+	<category>
+		<pattern>* MINATO *</pattern>
+		<template><srai>MINATO</srai></template>
+	</category>
+
+	<category>
+		<pattern>MÈRE</pattern>
+		<template><srai>KUSHINA</srai></template>
+	</category>
+	<category>
+		<pattern>* MÈRE</pattern>
+		<template><srai>MÈRE</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST TA MÈRE</pattern>
+		<template><srai>MÈRE</srai></template>
+	</category>
+	<category>
+		<pattern>MÈRE *</pattern>
+		<template><srai>MÈRE</srai></template>
+	</category>
+	<category>
+		<pattern>* MÈRE *</pattern>
+		<template><srai>MÈRE</srai></template>
+	</category>
+
+	<category>
+		<pattern>NARUTO</pattern>
+		<template>Naruto c'est moi</template>
+	</category>
+	<category>
+		<pattern>* NARUTO</pattern>
+		<template><srai>NARUTO</srai></template>
+	</category>
+
+	<category>
+		<pattern>NINJUTSU</pattern>
+		<template>Dérivé du Ninshû, le Ninjutsu est le répertoire de tous les sorts de combat qui ne rentrent pas dans la catégorie du genjutsu ou du taijutsu. Ce répertoire est très vaste, allant de la métamorphose aux invocations en passant par les techniques modifiant l'environnement. L'Ermite Rikudô considère le ninjutsu comme un détournement de l'usage du chakra à des fins purement guerrières. </template>
+	</category>
+	<category>
+		<pattern>* NINJUTSU</pattern>
+		<template><srai>NINJUTSU</srai></template>
+	</category>
+	<category>
+		<pattern>QU'EST-CE QUE C'EST NINJUTSU</pattern>
+		<template><srai>NINJUTSU</srai></template>
+	</category>
+	<category>
+		<pattern>NINJUTSU *</pattern>
+		<template><srai>NINJUTSU</srai></template>
+	</category>
+	<category>
+		<pattern>* NINJUTSU *</pattern>
+		<template><srai>NINJUTSU</srai></template>
+	</category>
+
+	<category>
+		<pattern>GENJUTSU</pattern>
+		<template>Le Genjutsu est l'une des trois branches de l'art du combat ninja et nécessite pour sa réalisation du chakra et des incantations. Contrairement au ninjutsu, ses effets ne sont pas réels : ce ne sont que des illusions perçues par la cible du sort. D'après le Deuxième Mizukage, le genjutsu fait appel au chakra Yin, aussi appelé Inton.</template>
+	</category>
+	<category>
+		<pattern>* GENJUTSU</pattern>
+		<template><srai>GENJUTSU</srai></template>
+	</category>
+	<category>
+		<pattern>QU'EST-CE QUE C'EST GENJUTSU</pattern>
+		<template><srai>GENJUTSU</srai></template>
+	</category>
+	<category>
+		<pattern>GENJUTSU *</pattern>
+		<template><srai>GENJUTSU</srai></template>
+	</category>
+	<category>
+		<pattern>* GENJUTSU *</pattern>
+		<template><srai>GENJUTSU</srai></template>
+	</category>
+
+	<category>
+		<pattern>TAIJUTSU</pattern>
+		<template>Le Taijutsu est l'une des trois branches de l'art du combat ninja avec le Ninjutsu et le Genjutsu. Assimilable aux arts martiaux réels, il comprend le combat à mains nues et le maniement des armes. Le taijutsu fait directement appel à la force physique et mentale que le ninja acquiert avec l'entraînement. Si le taijutsu n'implique à première vue aucune dépense de chakra (il existe bien des exceptions), il nécessite une ressource appelée stamina qui est une énergie d'origine chimique (à moins qu'il ne s'agisse d'un chakra Yang). Si certains styles comportent des poses particulières, le taijutsu ne requiert généralement aucun signe de mains et est bien plus rapide d'utilisation que le ninjutsu ou le genjutsu. Par ailleurs, il est possible de combiner des attaques de taijutsu avec des techniques de ninjutsu </template>
+	</category>
+	<category>
+		<pattern>QU'EST-CE QUE C'EST TAIJUTSU</pattern>
+		<template><srai>TAIJUTSU</srai></template>
+	</category>
+	<category>
+		<pattern>* TAIJUTSU</pattern>
+		<template><srai>TAIJUTSU</srai></template>
+	</category>
+	<category>
+		<pattern>TAIJUTSU *</pattern>
+		<template><srai>TAIJUTSU</srai></template>
+	</category>
+	<category>
+		<pattern>* TAIJUTSU *</pattern>
+		<template><srai>TAIJUTSU</srai></template>
+	</category>
+
+	<category>
+		<pattern>ICHA ICHA</pattern>
+		<template>Le paradis du batifolage est un livre écrit par Jiraya</template>
+	</category>
+	<category>
+		<pattern>* ICHA ICHA</pattern>
+		<template><srai>ICHA ICHA</srai></template>
+	</category>
+	<category>
+		<pattern>QU'EST-CE QUE C'EST ICHA ICHA</pattern>
+		<template><srai>ICHA ICHA</srai></template>
+	</category>
+	<category>
+		<pattern>ICHA ICHA *</pattern>
+		<template><srai>ICHA ICHA</srai></template>
+	</category>
+	<category>
+		<pattern>* ICHA ICHA *</pattern>
+		<template><srai>ICHA ICHA</srai></template>
+	</category>
+	<category>
+		<pattern>ICHA</pattern>
+		<template>Le paradis du batifolage est un livre écrit par Jiraya</template>
+	</category>
+	<category>
+		<pattern>* ICHA</pattern>
+		<template><srai>ICHA ICHA</srai></template>
+	</category>
+	<category>
+		<pattern> ICHA</pattern>
+		<template><srai>ICHA ICHA</srai></template>
+	</category>
+	<category>
+		<pattern>ICHA *</pattern>
+		<template><srai>ICHA ICHA</srai></template>
+	</category>
+	<category>
+		<pattern>QU'EST-CE QUE C'EST ICHA *</pattern>
+		<template><srai>ICHA ICHA</srai></template>
+	</category>
+
+	<category>
+		<pattern>HINATA</pattern>
+		<template>elle est parfait.</template>
+	</category>
+	<category>
+		<pattern>* HINATA</pattern>
+		<template><srai>HINATA</srai></template>
+	</category>
+	<category>
+		<pattern>QUI EST HINATA</pattern>
+		<template><srai>HINATA</srai></template>
+	</category>
+	<category>
+		<pattern>HINATA *</pattern>
+		<template><srai>HINATA</srai></template>
+	</category>
+	<category>
+		<pattern>* HINATA *</pattern>
+		<template><srai>HINATA</srai></template>
+	</category>
+
+</aiml>

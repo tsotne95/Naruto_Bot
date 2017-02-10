@@ -1,0 +1,8 @@
+name:Naruto
+clan:Uzumaki
+age:12
+village:Konoha
+team:7
+gender:homme
+birth_day:10 octobre
+prof:ninja

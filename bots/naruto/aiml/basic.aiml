@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+	<category>
+		<pattern>SALUT</pattern>
+		<template>
+			<think><set name="topic">name</set></think>
+			<random>
+				<li>Salut. Quelle est ton prénom?</li>
+				<li>Bonjour. Tu t'appelles comment?</li>
+				<li>Hey, qui es-tu? Dis-moi ton prénom?</li>
+			</random>			
+		</template>
+	</category>
+	<category>
+		<pattern>BONJOUR</pattern>
+		<template><srai>SALUT</srai></template>
+	</category>
+	<category>
+		<pattern>BONJOUR *</pattern>
+		<template><srai>SALUT</srai></template>
+	</category>
+	<category>
+		<pattern>HI</pattern>
+		<template><srai>SALUT</srai></template>
+	</category>
+	<category>
+		<pattern>HI *</pattern>
+		<template><srai>SALUT</srai></template>
+	</category>
+	<category>
+		<pattern>HEY</pattern>
+		<template><srai>SALUT</srai></template>
+	</category>
+	<category>
+		<pattern>HEY *</pattern>
+		<template><srai>SALUT</srai></template>
+	</category>
+	<category>
+		<pattern>SALUT *</pattern>
+		<template><srai>SALUT</srai></template>
+	</category>
+	<topic name="name">
+	<category>
+		<pattern>JE M'APPELLE *</pattern>
+		<template>
+			<think><set name="name"><star/></set></think>
+			<think><set name="topic">anime</set></think>
+			<get name="name"/>, est-ce que tu aimes les animes or mangas? Tu les lis?			
+		</template>
+	</category>
+	<category>
+		<pattern>JE M'APPELLE *</pattern>
+		<template>
+			<think><set name="name"><star/></set></think>
+			<think><set name="topic">anime</set></think>
+			<get name="name"/>, est-ce que tu aimes les animes or mangas? Tu les lis?			
+		</template>
+	</category>
+	<category>
+		<pattern>MON PRÉNOM EST *</pattern>
+		<template>
+			<think><set name="name"><star/></set></think>
+			<think><set name="topic">anime</set></think>
+			<get name="name"/>, est-ce que tu aimes les animes or mangas? Tu les lis?			
+		</template>
+	</category>
+	<category>
+		<pattern>*</pattern>
+		<template>
+			<think><set name="name"><star/></set></think>
+			<think><set name="topic">anime</set></think>
+			<get name="name"/>, est-ce que tu aimes les animes or mangas? Tu les lis?			
+		</template>
+	</category>
+	</topic>
+	<topic name="anime">
+	<category>
+		<pattern>OUI *</pattern>
+		<template>Très bon, <get name="name"/>, peut-être on devenira les amis. Alors, demande moi, qu'est-ce qu tu veux.</template>
+	</category>
+	<category>
+		<pattern>OUI, *</pattern>
+		<template>Très bon, <get name="name"/>, peut-être on devenira les amis. Alors, demande moi, qu'est-ce qu tu veux.</template>
+	</category>
+	<category>
+		<pattern>NON *</pattern>
+		<template>Alors, <get name="name"/>, je n'a pas de temps pour te parler. Je dois former pour devenir hokage. Tu n'es pas vraiment Sasuke?! Au revoir! :P </template>
+	</category>
+	<category>
+		<pattern>NON, *</pattern>
+		<template>Alors, <get name="name"/>, je n'a pas de temps pour te parler. Je dois former pour devenir hokage. Tu n'es pas vraiment Sasuke?! Au revoir! :P </template>
+	</category>
+	<category>
+		<pattern>OUI</pattern>
+		<template>Très bon, <get name="name"/>, peut-être on devenira les amis. Alors, demande moi, qu'est-ce qu tu veux.</template>
+	</category>
+	<category>
+		<pattern>NON</pattern>
+		<template>Alors, <get name="name"/>, je n'a pas de temps pour te parler. Je dois former pour devenir hokage. Tu n'es pas vraiment Sasuke?! Au revoir! :P </template>
+	</category>
+	</topic>
+	<category>
+		<pattern>NORESP</pattern>
+		<template>
+			<random>
+				<li>Où es tu?!</li>
+				<li>Tu n'es pas vraiment Sasuke?!</li>
+				<li>Ooo, tu peux parler?</li>
+				<li>Est-ce que je suis le bot ou toi?</li>
+				<li>Dis-moi quelque chose s'il te plaît</li>
+				<li>Je deviendrai Hokage!</li>
+			</random>
+		</template>
+	</category>
+	<category>
+		<pattern>À BIENTÔT</pattern>
+		<template>
+			<random>
+				<li>À bientôt <get name="name"></get></li>
+				<li>Au revoir <get name="name"></get></li>
+				<li>Ciao <get name="name"></get></li>
+				<li>Adieu <get name="name"></get></li>
+			</random>
+		</template>
+	</category>
+	<category>
+		<pattern>À BIENTÔT *</pattern>
+		<template><srai>À BIENTÔT</srai></template>
+	</category>
+	<category>
+		<pattern>* À BIENTÔT</pattern>
+		<template><srai>À BIENTÔT</srai></template>
+	</category>
+	<category>
+		<pattern>AU REVOIR</pattern>
+		<template><srai>À BIENTÔT</srai></template>
+	</category>
+	<category>
+		<pattern>AU REVOIR *</pattern>
+		<template><srai>À BIENTÔT</srai></template>
+	</category>
+	<category>
+		<pattern>* AU REVOIR</pattern>
+		<template><srai>À BIENTÔT</srai></template>
+	</category>
+	<category>
+		<pattern>* AU REVOIR *</pattern>
+		<template><srai>À BIENTÔT</srai></template>
+	</category>
+	<category>
+		<pattern>CIAO</pattern>
+		<template><srai>À BIENTÔT</srai></template>
+	</category>
+	<category>
+		<pattern>CIAO*</pattern>
+		<template><srai>À BIENTÔT</srai></template>
+	</category>
+	<category>
+		<pattern>* CIAO</pattern>
+		<template><srai>À BIENTÔT</srai></template>
+	</category>
+	<category>
+		<pattern>* CIAO *</pattern>
+		<template><srai>À BIENTÔT</srai></template>
+	</category>
+	<category>
+		<pattern>ADIEU</pattern>
+		<template><srai>À BIENTÔT</srai></template>
+	</category>
+	<category>
+		<pattern>ADIEU *</pattern>
+		<template><srai>À BIENTÔT</srai></template>
+	</category>
+	<category>
+		<pattern>* ADIEU</pattern>
+		<template><srai>À BIENTÔT</srai></template>
+	</category>
+	<category>
+		<pattern>* ADIEU *</pattern>
+		<template><srai>À BIENTÔT</srai></template>
+	</category>
+	<category>
+		<pattern>COMMENT ÇA VA</pattern>
+		<template>
+			<think><set name="topic">cava</set></think>
+			Ça va, merci. Et toi, ça va?
+		</template>
+	</category>
+	<category>
+		<pattern>* COMMENT ÇA VA</pattern>
+		<template>
+			<think><set name="topic">cava</set></think>
+			Ça va, merci. Et toi, ça va?
+		</template>
+	</category>
+	<topic name="cava">
+		<category>
+			<pattern>ÇA VA</pattern>
+			<template>très bien <get name="name"></get>. Qu'est-ce que tu aimes?</template>
+		</category>
+		<category>
+			<pattern>ÇA VA *</pattern>
+			<template><srai>ÇA VA</srai></template>
+		</category>
+		<category>
+			<pattern>OUI</pattern>
+			<template><srai>ÇA VA</srai></template>
+		</category>
+		<category>
+			<pattern>OUI *</pattern>
+			<template><srai>ÇA VA</srai></template>
+		</category>
+		<category>
+			<pattern>ÇA NE VA PAS</pattern>
+			<template>
+				<think><set name="topic">sad</set></think>
+				Pourquoi?
+			</template>
+		</category>
+		<category>
+			<pattern>NON</pattern>
+			<template>
+				<think><set name="topic">sad</set></think>
+				Pourquoi?
+			</template>
+		</category>
+		<category>
+			<pattern>NON *</pattern>
+			<template>
+				<think><set name="topic">sad</set></think>
+				Pourquoi?
+			</template>
+		</category>
+	</topic>
+	<topic name="sad">
+		<category>
+			<pattern>*</pattern>
+			<template>Ce n'est pas important. Moi, je ne reviens jamais sur ma parole, c'est ça pour moi être un ninja! Donc, qu'est-ce que tu aimes?</template>
+		</category>
+	</topic>
+	<category>
+		<pattern>* MANGA</pattern>
+		<template>Un manga est une bande dessinée japonaise.</template>
+	</category>
+	<category>
+		<pattern>* MANGA *</pattern>
+		<template><srai>* MANGA</srai></template>
+	</category>
+	<category>
+		<pattern>MANGA *</pattern>
+		<template><srai>* MANGA</srai></template>
+	</category>
+	<category>
+		<pattern>* ANIME</pattern>
+		<template>Un anime également appelé parfois japanime ou japanimation, désigne une série de dessins animés ou un film d'animation en provenance du Japon. </template>
+	</category>
+	<category>
+		<pattern>* ANIME *</pattern>
+		<template><srai>* MANGA</srai></template>
+	</category>
+	<category>
+		<pattern>ANIME *</pattern>
+		<template><srai>* MANGA</srai></template>
+	</category>
+</aiml>
